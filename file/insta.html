@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('back.png') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .container img {
+            width: 300px;
+            height: auto;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .container img:hover {
+            transform: scale(1.1);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://mopi-4921.github.io/momo2024/" target="_blank">
+            <img src="heart.png" alt="Linked Image">
+        </a>
+    </div>
+    <p><center><h1>Play The Audio then Click on the Above Image.</h1></center></p>
+    <audio controls autoplay
+        source src="laila.mp3" >
+        
+        Your browser does not support the audio element.
+      </audio>
+</body>
+</html>
